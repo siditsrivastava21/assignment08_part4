@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .profile-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 100vh;
+      }
+
+      .profile-card {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        padding-top: 20px;
+        box-shadow: 3px 5px rgb(243, 243, 243);
+        padding-bottom: 50px;
+        box-sizing: border-box;
+      }
+      .profile-card img {
+        width: 400px;
+      }
+
+      .info p {
+        padding-top: 10px;
+        color: grey;
+      }
+      .profile-card p {
+        font-size: 21px;
+      }
+      .year {
+        padding-top: 30px;
+      }
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+      }
+
+      .star{
+        padding-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile-section">
+      <div>
+        <h1>Title</h1>
+        <h1>Panda Oard</h1>
+        <div class="profile-card">
+          <img src="./image/panda.png" alt="" />
+
+          <div class="info">
+            <h1 class="name">John Doe</h1>
+            <p>Computer Science 1</p>
+            <p>Computer Science 2</p>
+          </div>
+
+          <p class="year">Year: 3</p>
+
+          <div class="star">
+            <span class="material-symbols-outlined"> star </span>
+            <span class="material-symbols-outlined"> star </span>
+            <span class="material-symbols-outlined"> star </span>
+            <span class="material-symbols-outlined"> star </span>
+            <span class="material-symbols-outlined"> star </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
